@@ -1,0 +1,10 @@
+Bundle-Name: services-api
+Bundle-SymbolicName: com.liferay.training.bookmarks.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.training.bookmarks.exception,\
+	com.liferay.training.bookmarks.model,\
+	com.liferay.training.bookmarks.service,\
+	com.liferay.training.bookmarks.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../services-service/service.xml
